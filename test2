@@ -1,0 +1,105 @@
+
+
+- Completed reload, in  0.079 seconds
+!!!!! Start !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:10.353 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:10.353 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:10.353 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:10.354 heddoko3[2692:1219908] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:10.663 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:10.664 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:10.664 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:10.664 heddoko3[2692:1219908] devices: 10
+
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+
+2015-03-20 17:15:24.950 heddoko3[2692:1219908] iOS-Unity : Loading Scene 'Learn'
+!!!!! Start !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:25.567 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:25.567 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:25.567 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:25.567 heddoko3[2692:1219908] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:25.888 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:25.888 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:25.889 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:25.889 heddoko3[2692:1219908] devices: 10
+
+2015-03-20 17:15:33.759 heddoko3[2692:1219908] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Start !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:34.438 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:34.438 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:34.439 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:34.439 heddoko3[2692:1219908] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:34.753 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:34.753 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:34.753 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:34.753 heddoko3[2692:1219908] devices: 10
+
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[SensorData].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BluetoothDeviceScript.OnBluetoothMessage (System.String message) [0x000d3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Plugins/BluetoothDeviceScript.cs:160 
+
+2015-03-20 17:15:35.352 heddoko3[2692:1219908] iOS-Unity : Sending message 'Ready'
+!!!!! NodController Start Recording !!!!!
+!!!!! Reset and Start Recording !!!!!
+
+2015-03-20 17:15:40.493 heddoko3[2692:1219908] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Start !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:41.001 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:41.001 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:41.001 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:41.002 heddoko3[2692:1219908] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 17:15:41.325 heddoko3[2692:1219908] [ Received Base Movement Data ]
+2015-03-20 17:15:41.325 heddoko3[2692:1219908] dataSize: 4470
+2015-03-20 17:15:41.325 heddoko3[2692:1219908] frames: 149
+2015-03-20 17:15:41.325 heddoko3[2692:1219908] devices: 10
+
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[SensorData].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BluetoothDeviceScript.OnBluetoothMessage (System.String message) [0x000d3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Plugins/BluetoothDeviceScript.cs:160 
+
+2015-03-20 17:15:41.499 heddoko3[2692:1219908] iOS-Unity : Sending message 'Analyze'
+!!!!! NodController Stop Recording !!!!!
+!!!!! Sending Recorded Movement !!!!!
+Sending data to ios :0
+!!!!! Stop Recording And Analyze !!!!!
+!!!!! Play Reference Recorded !!!!!
+!!!!! Play Current Recorded !!!!!
+

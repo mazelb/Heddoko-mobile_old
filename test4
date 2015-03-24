@@ -1,0 +1,79 @@
+
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! prepareReferenceMovement !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! Palying recording !!!!! - dummy
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!! - bones
+Connecting to sensors - bones
+initializing.. - bones
+getting a list of devices - bones
+!!!!! Back to Real Time Tracking !!!!! - dummy
+
+2015-03-22 16:19:53.894 heddoko3[382:90792] iOS-Unity : Loading Scene 'Learn'
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! prepareReferenceMovement !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! Palying recording !!!!! - dummy
+
+SendMessage: object BluetoothLEReceiver not found!
+
+2015-03-22 16:20:03.439 heddoko3[382:90792] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! prepareReferenceMovement !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! Palying recording !!!!! - dummy
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!! - bones
+Connecting to sensors - bones
+initializing.. - bones
+getting a list of devices - bones
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[SensorData].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BluetoothDeviceScript.OnBluetoothMessage (System.String message) [0x000d3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Plugins/BluetoothDeviceScript.cs:160 
+
+2015-03-22 16:20:04.981 heddoko3[382:90792] iOS-Unity : Sending message 'Ready'
+!!!!! Reset and Start Recording !!!!!
+!!!!! NodController Start Recording !!!!! - bones
+!!!!! Recording !!!!! - bones
+
+2015-03-22 16:20:25.559 heddoko3[382:90792] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Recording !!!!! - bones
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! prepareReferenceMovement !!!!! - dummy
+!!!!! Sending Reference Movement !!!!!
+!!!!! Palying recording !!!!! - dummy
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!! - bones
+initializing.. - bones
+getting a list of devices - bones
+2015-03-22 16:20:27.322 heddoko3[382:90792] iOS-Unity : Sending message 'Analyze'
+!!!!! Stop Recording And Analyze !!!!!
+!!!!! NodController Stop Recording !!!!! - bones
+!!!!! Sending Recorded Movement !!!!! - bones
+Sending data to ios :6240
+2015-03-22 16:20:27.940 heddoko3[382:90792] [ Received Real Recorded Data ]
+2015-03-22 16:20:27.940 heddoko3[382:90792] dataSize: 6240
+2015-03-22 16:20:27.940 heddoko3[382:90792] frames: 208
+2015-03-22 16:20:27.941 heddoko3[382:90792] devices: 10
+!!!!! DEINITIALIZE !!!!!
+!!!!! Play Reference Recorded !!!!!
+!!!!! Play Current Recorded !!!!!
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[System.Collections.Generic.List`1[SensorData]].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[System.Collections.Generic.List`1[SensorData]].MoveNext () [0x00000] in <filename unknown>:0 
+  at nodController+<readFromAllSensors>c__Iterator1.MoveNext () [0x003c3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:364 
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 364)
+
+!!!!! Palying recording !!!!! - bones

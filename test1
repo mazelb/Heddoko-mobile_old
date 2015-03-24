@@ -1,0 +1,121 @@
+- Completed reload, in  0.050 seconds
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:22:34.399 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:22:34.399 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:22:34.399 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:22:34.399 heddoko3[2665:1206939] devices: 10
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:22:34.692 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:22:34.692 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:22:34.692 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:22:34.692 heddoko3[2665:1206939] devices: 10
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+2015-03-20 16:22:34.756 heddoko3[2665:1206939] Part: 2 - nod-27c
+2015-03-20 16:22:34.757 heddoko3[2665:1206939] Part: 2 - nod-25d
+2015-03-20 16:22:34.758 heddoko3[2665:1206939] Part: 2 - nod-1f2
+2015-03-20 16:22:34.758 heddoko3[2665:1206939] Part: 2 - nod-421
+2015-03-20 16:22:34.759 heddoko3[2665:1206939] Part: 2 - nod-2cd
+2015-03-20 16:22:34.759 heddoko3[2665:1206939] Part: 2 - nod-274
+2015-03-20 16:22:34.760 heddoko3[2665:1206939] Part: 2 - nod-2cb
+2015-03-20 16:22:34.761 heddoko3[2665:1206939] Part: 2 - nod-45a
+2015-03-20 16:22:34.762 heddoko3[2665:1206939] Part: 2 - nod-55c
+2015-03-20 16:22:34.762 heddoko3[2665:1206939] Part: 2 - nod-2e8
+...
+2015-03-20 16:22:52.039 heddoko3[2665:1206939] iOS-Unity : Loading Scene 'Learn'
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:22:52.646 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:22:52.646 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:22:52.647 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:22:52.647 heddoko3[2665:1206939] devices: 10
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:22:52.971 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:22:52.972 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:22:52.972 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:22:52.972 heddoko3[2665:1206939] devices: 10
+SendMessage: object BluetoothLEReceiver not found!
+SendMessage: object BluetoothLEReceiver not found!
+...
+2015-03-20 16:23:01.145 heddoko3[2665:1206939] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:23:01.806 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:23:01.806 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:23:01.807 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:23:01.807 heddoko3[2665:1206939] devices: 10
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:23:02.115 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:23:02.116 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:23:02.116 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:23:02.116 heddoko3[2665:1206939] devices: 10
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[SensorData].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BluetoothDeviceScript.OnBluetoothMessage (System.String message) [0x000d3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Plugins/BluetoothDeviceScript.cs:160 
+...
+2015-03-20 16:23:02.144 heddoko3[2665:1206939] Part: 2 - nod-27c
+2015-03-20 16:23:02.144 heddoko3[2665:1206939] Part: 2 - nod-25d
+2015-03-20 16:23:02.145 heddoko3[2665:1206939] Part: 2 - nod-1f2
+2015-03-20 16:23:02.145 heddoko3[2665:1206939] Part: 2 - nod-421
+2015-03-20 16:23:02.147 heddoko3[2665:1206939] Part: 2 - nod-2cd
+2015-03-20 16:23:02.148 heddoko3[2665:1206939] Part: 2 - nod-274
+2015-03-20 16:23:02.148 heddoko3[2665:1206939] Part: 2 - nod-2cb
+2015-03-20 16:23:02.149 heddoko3[2665:1206939] Part: 2 - nod-45a
+2015-03-20 16:23:02.150 heddoko3[2665:1206939] Part: 2 - nod-55c
+2015-03-20 16:23:02.150 heddoko3[2665:1206939] Part: 2 - nod-2e8
+...
+2015-03-20 16:23:02.722 heddoko3[2665:1206939] iOS-Unity : Sending message 'Ready'
+!!!!! NodController Start Recording !!!!!
+!!!!! Reset and Start Recording !!!!!
+...
+2015-03-20 16:23:14.866 heddoko3[2665:1206939] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:23:15.995 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:23:15.995 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:23:15.996 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:23:15.996 heddoko3[2665:1206939] devices: 10
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 16:23:16.311 heddoko3[2665:1206939] [ Received Base Movement Data ]
+2015-03-20 16:23:16.312 heddoko3[2665:1206939] dataSize: 4470
+2015-03-20 16:23:16.312 heddoko3[2665:1206939] frames: 149
+2015-03-20 16:23:16.312 heddoko3[2665:1206939] devices: 10
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[SensorData].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BluetoothDeviceScript.OnBluetoothMessage (System.String message) [0x000d3] in /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Plugins/BluetoothDeviceScript.cs:160 
+...
+2015-03-20 16:23:16.337 heddoko3[2665:1206939] Part: 2 - nod-27c
+2015-03-20 16:23:16.338 heddoko3[2665:1206939] Part: 2 - nod-25d
+2015-03-20 16:23:16.339 heddoko3[2665:1206939] Part: 2 - nod-1f2
+2015-03-20 16:23:16.339 heddoko3[2665:1206939] Part: 2 - nod-421
+2015-03-20 16:23:16.341 heddoko3[2665:1206939] Part: 2 - nod-2cd
+2015-03-20 16:23:16.342 heddoko3[2665:1206939] Part: 2 - nod-274
+2015-03-20 16:23:16.342 heddoko3[2665:1206939] Part: 2 - nod-2cb
+2015-03-20 16:23:16.343 heddoko3[2665:1206939] Part: 2 - nod-45a
+2015-03-20 16:23:16.343 heddoko3[2665:1206939] Part: 2 - nod-55c
+2015-03-20 16:23:16.344 heddoko3[2665:1206939] Part: 2 - nod-2e8
+2015-03-20 16:23:16.549 heddoko3[2665:1206939] iOS-Unity : Sending message 'Analyze'
+!!!!! NodController Stop Recording !!!!!
+!!!!! Sending Recorded Movement !!!!!
+Sending data to ios :0
+!!!!! Stop Recording And Analyze !!!!!
+!!!!! Play Reference Recorded !!!!!
+!!!!! Play Current Recorded !!!!!
+...

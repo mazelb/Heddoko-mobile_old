@@ -1,0 +1,98 @@
+
+
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:34:56.806 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:34:56.806 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:34:56.806 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:34:56.806 heddoko3[2849:1284538] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:34:57.098 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:34:57.098 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:34:57.098 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:34:57.098 heddoko3[2849:1284538] devices: 10
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+
+2015-03-20 20:35:10.582 heddoko3[2849:1284538] iOS-Unity : Loading Scene 'Learn'
+
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:11.188 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:11.188 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:11.189 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:11.189 heddoko3[2849:1284538] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:11.516 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:11.517 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:11.517 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:11.517 heddoko3[2849:1284538] devices: 10
+
+2015-03-20 20:35:19.190 heddoko3[2849:1284538] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:19.796 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:19.796 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:19.797 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:19.797 heddoko3[2849:1284538] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:20.110 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:20.111 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:20.111 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:20.112 heddoko3[2849:1284538] devices: 10
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+2015-03-20 20:35:20.737 heddoko3[2849:1284538] iOS-Unity : Sending message 'Ready'
+!!!!! Reset and Start Recording !!!!!
+!!!!! NodController Start Recording !!!!!
+
+2015-03-20 20:35:31.125 heddoko3[2849:1284538] iOS-Unity : Loading Scene 'MainScene'
+!!!!! Start Dummy !!!!!
+!!!!! setDummyMode !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:32.229 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:32.229 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:32.230 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:32.230 heddoko3[2849:1284538] devices: 10
+!!!!! prepareReferenceMovement !!!!!
+!!!!! Sending Reference Movement !!!!!
+Sending data to ios :4470
+2015-03-20 20:35:32.532 heddoko3[2849:1284538] [ Received Base Movement Data ]
+2015-03-20 20:35:32.533 heddoko3[2849:1284538] dataSize: 4470
+2015-03-20 20:35:32.533 heddoko3[2849:1284538] frames: 149
+2015-03-20 20:35:32.533 heddoko3[2849:1284538] devices: 10
+!!!!! Start Bone !!!!!
+!!!!! Initializing !!!!!
+Connecting to sensors
+initializing..
+getting a list of devices
+2015-03-20 20:35:32.756 heddoko3[2849:1284538] iOS-Unity : Sending message 'Analyze'
+!!!!! Stop Recording And Analyze !!!!!
+!!!!! NodController Stop Recording !!!!!
+!!!!! Sending Recorded Movement !!!!!
+Sending data to ios :1620
+2015-03-20 20:35:32.857 heddoko3[2849:1284538] [ Received Real Recorded Data ]
+2015-03-20 20:35:32.857 heddoko3[2849:1284538] dataSize: 1620
+2015-03-20 20:35:32.857 heddoko3[2849:1284538] frames: 54
+2015-03-20 20:35:32.858 heddoko3[2849:1284538] devices: 10
+!!!!! Play Reference Recorded !!!!!
+!!!!! Play Current Recorded !!!!!

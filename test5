@@ -1,0 +1,2405 @@
+
+2015-03-23 17:08:54.343 heddoko3[925:283081] -> registered mono modules 0x18213c0
+-> applicationDidFinishLaunching()
+Mono path[0] = '/private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed'
+Mono config path = '/private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed'
+PlayerConnection initialized from /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55000
+Multi-casting "[IP] 10.146.193.65 [Port] 55000 [Flags] 3 [Guid] 2292641968 [EditorId] 3240757446 [Version] 1048832 [Id] iPhonePlayer(mazens-iPhone):56000 [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [10.146.193.65:55000]...
+Timed out. Continuing without host connection.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56000
+PlayerConnection already initialized - listening to [10.146.193.65:55000]
+-> applicationDidBecomeActive()
+Requesting Resolution: 922x1636
+Renderer: Apple A8 GPU
+Vendor:   Apple Inc.
+Version:  OpenGL ES 2.0 Apple A8 GPU - 50.6.11
+GL_OES_depth_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_vertex_array_object GL_EXT_blend_minmax GL_EXT_color_buffer_half_float GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_draw_instanced GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_pvrtc_sRGB GL_EXT_read_format_bgra GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sRGB GL_EXT_texture_filter_anisotropic GL_EXT_texture_rg GL_EXT_texture_storage GL_APPLE_clip_distance GL_APPLE_color_buffer_packed_float GL_APPLE_copy_texture_levels GL_APPLE_framebuffer_multisample GL_APPLE_rgb_422 GL_APPLE_sync GL_APPLE_texture_format_BGRA8888 GL_APPLE_texture_max_level GL_APPLE_texture_packed_float GL_IMG_read_format GL_IMG_texture_comp
+ression_pvrtc 
+Creating OpenGLES2.0 graphics device
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+Begin MonoManager ReloadAssembly
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/System.dll (this message is harmless)
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Mono.Security.dll (this message is harmless)
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Boo.Lang.dll (this message is harmless)
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/UnityScript.Lang.dll (this message is harmless)
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /private/var/mobile/Containers/Bundle/Application/6F567E97-C367-4656-B06D-876AEEF19897/heddoko3.app/Data/Managed/System.Core.dll (this message is harmless)
+- Completed reload, in  0.039 seconds
+!!!!! Start Dummy !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:265)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs Line: 265)
+
+!!!!! setDummyMode !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:218)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 218)
+
+!!!!! setDummyMode Creating BLE devices !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:227)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 227)
+
+!!!!! prepareReferenceMovement !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:191)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 191)
+
+!!!!! Sending Reference Movement !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8305)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 8305)
+
+Sending data to ios :4470
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:sendMovement(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:127)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8306)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 127)
+
+2015-03-23 17:09:00.530 heddoko3[925:283081] [ Received Base Movement Data ]
+2015-03-23 17:09:00.530 heddoko3[925:283081] dataSize: 4470
+2015-03-23 17:09:00.531 heddoko3[925:283081] frames: 149
+2015-03-23 17:09:00.531 heddoko3[925:283081] devices: 10
+!!!!! Palying recording !!!!! - dummy 149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:398)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:282)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 398)
+
+!!!!! Start Bone RealTime !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:283)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs Line: 283)
+
+!!!!! Initializing First Time!!!!! - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:327)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 327)
+
+Connecting to sensors - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:204)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:330)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 204)
+
+initializing.. - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:207)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:330)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 207)
+
+getting a list of devices - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:211)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:330)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 211)
+
+2015-03-23 17:09:00.553 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.554 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.554 heddoko3[925:283081] Part: 2 - nod-27c
+2015-03-23 17:09:00.555 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.555 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.555 heddoko3[925:283081] Part: 2 - nod-27c
+2015-03-23 17:09:00.555 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.556 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:00.556 heddoko3[925:283081] Part: 2 - nod-25d
+2015-03-23 17:09:00.556 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.556 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:00.556 heddoko3[925:283081] Part: 2 - nod-25d
+2015-03-23 17:09:00.557 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.557 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:00.557 heddoko3[925:283081] Part: 2 - nod-1f2
+2015-03-23 17:09:00.557 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.557 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 2 - nod-1f2
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 2 - nod-421
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.558 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:00.559 heddoko3[925:283081] Part: 2 - nod-421
+2015-03-23 17:09:00.559 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.559 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:00.559 heddoko3[925:283081] Part: 2 - nod-2cd
+2015-03-23 17:09:00.559 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.560 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:00.560 heddoko3[925:283081] Part: 2 - nod-2cd
+2015-03-23 17:09:00.560 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.560 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:00.561 heddoko3[925:283081] Part: 2 - nod-274
+2015-03-23 17:09:00.561 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.561 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:00.561 heddoko3[925:283081] Part: 2 - nod-274
+2015-03-23 17:09:00.561 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.562 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 2 - nod-2cb
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 2 - nod-2cb
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.563 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:00.564 heddoko3[925:283081] Part: 2 - nod-45a
+2015-03-23 17:09:00.564 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.565 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:00.565 heddoko3[925:283081] Part: 2 - nod-45a
+2015-03-23 17:09:00.565 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.565 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:00.565 heddoko3[925:283081] Part: 2 - nod-55c
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 2 - nod-55c
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:00.566 heddoko3[925:283081] Part: 2 - nod-2e8
+2015-03-23 17:09:00.567 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:00.567 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:00.567 heddoko3[925:283081] Part: 2 - nod-2e8
+2015-03-23 17:09:00.621 heddoko3[925:283081] Central State Update: 5
+2015-03-23 17:09:00.709 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.710 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.710 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:00.710 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.710 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.710 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:00.711 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.711 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.711 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.711 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.711 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.712 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.712 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.712 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.712 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.712 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.713 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.714 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.715 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:00.716 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.716 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.716 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.716 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.716 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:00.717 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:00.717 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.717 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.717 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:00.717 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.718 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.719 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:00.719 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.719 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.720 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.720 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:00.720 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.720 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.720 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.721 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:00.721 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.721 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:00.722 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.723 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.723 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.723 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:00.724 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.724 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.724 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.724 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:00.724 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.725 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.725 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.725 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:00.725 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.726 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.727 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.728 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.728 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:00.728 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.728 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.728 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.729 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:00.729 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.729 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.729 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:00.730 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.731 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.732 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.733 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.734 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.734 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.734 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.734 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.734 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.735 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.735 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.735 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.735 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.735 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.736 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.736 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.736 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.746 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.747 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.747 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.747 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.747 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.748 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.749 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.749 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.749 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.749 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.749 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.750 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.750 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.750 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.750 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.751 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.752 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.753 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.753 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.753 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.753 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.753 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.754 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.754 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.754 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.754 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:00.755 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:00.756 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.444 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.445 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.445 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:01.446 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.446 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.447 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:01.447 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.448 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.448 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.449 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.450 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.450 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.451 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.452 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.452 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.453 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.454 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.455 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.455 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.456 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.457 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.457 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.458 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.458 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.459 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.459 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.460 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.461 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.461 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.462 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.462 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.463 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.463 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.464 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:01.464 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.465 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.465 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.466 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.467 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:01.467 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:01.468 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.469 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.469 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:01.470 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:01.470 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.471 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.471 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.472 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:01.472 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.473 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.473 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.474 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:01.475 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.475 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.476 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.476 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:01.477 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.477 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.478 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.478 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:01.478 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.481 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.481 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.481 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:01.482 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.482 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.482 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.483 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:01.483 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.484 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.485 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.486 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:01.486 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.486 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.487 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.487 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:01.487 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.488 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.488 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.488 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:01.489 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.490 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.491 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.491 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:01.492 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.492 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.493 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.493 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:01.494 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.494 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.495 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:01.495 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:01.496 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.496 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.497 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.497 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:01.498 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.498 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.498 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.499 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:01.499 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.499 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.500 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.500 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:01.500 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.501 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.501 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:01.501 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:01.502 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.502 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.503 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.503 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.504 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.504 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.504 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.505 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.506 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.506 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.506 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.507 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.507 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.508 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.508 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.509 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.510 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.510 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.510 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.511 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.511 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.512 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.512 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.513 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.513 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.513 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.514 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.515 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.515 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.516 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.516 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.517 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.517 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.518 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.518 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.519 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.519 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.519 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.520 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.520 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.521 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.521 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.521 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.522 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.522 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.523 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.523 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.523 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.524 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.524 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.525 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.525 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.525 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.526 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.526 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.527 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.527 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.527 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.528 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.528 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.528 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.529 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.529 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.530 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.530 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.531 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.531 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.531 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.532 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.532 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.533 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.535 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.535 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.536 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.536 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.536 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.538 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:01.538 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:01.539 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:01.539 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.211 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.211 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.212 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.213 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.214 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.214 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.215 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.216 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.216 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.217 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.218 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.219 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.220 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.220 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.221 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.221 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.222 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.222 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.223 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.223 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.224 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.224 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.225 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.226 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.226 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.227 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.228 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.228 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.229 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.230 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.231 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.232 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.233 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.233 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.234 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.234 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.235 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.235 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.236 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.236 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:02.237 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.238 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.238 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.239 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:02.240 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.240 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.241 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.242 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:02.243 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.243 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.244 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.245 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:02.245 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.246 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.246 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.246 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:02.247 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.247 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.247 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.248 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:02.248 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.249 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.249 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.249 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:02.250 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.250 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.250 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.251 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:02.251 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.251 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.252 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.252 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:02.253 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.253 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.253 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.254 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:02.254 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.255 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.255 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.256 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:02.256 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.256 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.257 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.257 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:02.257 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.258 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.258 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.258 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:02.259 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.260 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.260 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.261 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:02.261 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.262 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.262 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.263 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:02.263 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.263 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.264 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.264 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:02.265 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.265 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.266 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.266 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:02.266 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.267 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.267 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.268 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:02.268 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.269 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.269 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.269 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.270 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.270 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.271 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.271 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.272 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.272 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.273 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.273 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.273 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.274 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.274 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.274 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.275 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.275 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.276 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.276 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.277 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.277 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.277 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.278 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.278 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.278 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.279 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.279 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.280 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.280 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.280 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.281 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.281 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.282 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.282 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.282 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.283 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.283 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.284 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.284 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.284 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.285 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.285 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.285 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.286 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.286 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.286 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.286 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.286 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.287 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.288 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.288 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.288 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.288 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.288 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.289 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.289 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.289 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.289 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.289 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.290 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.291 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.292 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:02.292 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.292 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.927 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.928 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.929 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.930 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.930 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.931 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.932 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.932 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.933 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.933 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.934 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.934 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.935 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.935 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.936 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.937 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.937 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.938 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.939 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.939 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.940 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.941 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.941 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.942 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.943 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.944 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.945 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.945 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.946 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.946 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.947 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.947 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.948 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.948 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:02.949 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.949 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:02.951 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.952 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.953 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.953 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:02.954 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.955 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.955 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:02.956 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:02.957 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.957 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.958 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.959 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:02.959 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.960 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.960 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.961 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:02.962 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.962 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.963 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.963 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:02.964 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.964 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.965 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.965 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:02.966 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.966 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.967 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.967 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:02.968 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.969 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.969 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.970 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:02.971 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.971 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.972 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.972 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:02.973 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.974 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.974 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.975 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:02.983 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.985 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.986 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.987 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:02.988 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.988 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.989 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.989 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:02.990 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.990 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.991 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.991 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:02.992 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.993 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.993 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:02.994 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:02.994 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.995 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.995 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.996 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:02.997 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:02.997 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:02.998 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:02.998 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:02.999 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.001 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.002 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.002 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:03.003 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.004 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.004 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.005 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:03.005 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.006 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.006 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.007 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.008 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.010 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.011 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.012 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.013 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.013 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.014 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.014 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.015 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.016 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.017 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.018 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.018 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.019 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.019 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.020 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.020 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.021 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.022 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.023 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.023 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.024 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.024 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.025 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.025 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.026 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.026 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.026 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.027 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.028 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.028 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.028 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.028 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.028 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.029 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.029 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.029 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.029 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.029 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.030 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.031 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.032 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.032 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.032 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.032 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.032 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.033 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.034 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.035 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:03.035 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.035 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.661 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.662 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.662 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:03.663 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.663 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.664 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:03.665 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.665 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.666 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.667 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.667 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.668 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.668 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.669 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.670 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.670 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.671 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.671 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.672 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.672 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.673 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.674 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.674 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.675 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.676 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.676 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.677 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.678 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.679 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.679 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.680 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.680 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.681 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.681 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:03.682 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.682 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.683 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.684 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.685 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:03.686 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:03.686 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.687 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.687 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:03.688 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:03.688 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.689 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.689 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.690 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:03.690 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.691 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.692 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.692 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:03.693 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.694 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.695 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.696 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:03.696 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.697 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.697 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.698 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:03.698 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.699 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.699 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.700 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:03.700 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.701 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.702 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.703 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:03.704 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.704 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.706 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.707 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:03.708 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.708 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.709 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.710 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:03.710 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.711 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.712 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.713 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:03.713 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.714 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.714 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.715 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:03.716 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.716 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.717 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.717 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:03.718 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.718 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.719 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:03.720 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:03.720 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.721 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.722 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.722 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:03.723 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.724 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.724 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.725 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:03.725 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.726 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.726 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.727 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:03.728 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.728 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.729 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:03.729 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:03.730 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.731 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.731 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.732 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.732 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.733 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.733 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.734 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.735 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.735 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.737 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.737 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.738 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.739 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.739 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.740 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.741 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.742 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.742 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.743 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.743 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.744 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.744 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.745 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.746 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.746 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.747 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.747 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.748 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.749 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.749 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.750 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.750 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.751 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.751 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.752 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.753 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.754 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.755 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.755 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.756 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.756 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.756 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.756 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.757 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.758 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.759 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.760 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.760 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.760 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.760 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.760 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.761 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.761 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.761 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.761 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.761 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.762 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.762 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.762 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.762 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.762 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:03.763 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:03.763 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:03.763 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.395 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.396 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.397 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:04.397 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.398 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.398 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:04.399 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.399 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.400 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.400 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.401 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.402 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.403 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.404 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.404 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.405 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.406 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.407 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.407 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.408 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.409 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.409 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.410 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.410 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.411 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.411 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.412 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.412 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.413 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.414 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.415 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.416 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.416 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.417 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:04.419 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.419 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.420 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.420 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.421 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:04.421 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:04.422 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.422 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.423 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:04.425 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:04.425 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.426 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.426 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.427 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:04.427 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.428 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.428 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.429 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:04.430 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.430 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.431 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.431 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:04.432 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.433 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.434 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.434 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:04.435 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.436 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.437 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.438 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:04.438 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.439 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.439 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.440 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:04.441 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.441 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.442 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.443 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:04.444 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.444 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.445 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.445 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:04.446 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.446 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.447 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.447 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:04.448 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.448 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.449 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.449 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:04.450 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.450 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.451 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.452 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:04.452 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.453 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.453 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:04.454 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:04.455 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.456 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.456 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.457 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:04.458 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.459 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.459 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.460 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:04.461 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.462 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.462 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.463 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:04.463 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.464 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.464 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:04.465 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:04.466 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.466 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.467 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.468 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.468 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.470 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.470 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.471 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.472 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.472 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.473 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.473 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.474 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.475 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.475 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.476 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.477 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.477 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.478 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.479 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.480 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.481 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.481 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.482 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.483 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.484 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.484 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.485 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.485 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.486 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.486 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.486 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.487 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.487 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.488 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.488 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.488 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.489 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.489 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.490 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.491 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.491 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.492 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.492 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.493 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.493 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.493 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.494 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.494 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.495 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.495 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.496 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.496 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.497 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.497 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.498 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.498 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.499 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.499 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.499 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.500 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.500 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.501 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.501 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.501 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.502 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.502 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.503 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.503 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.504 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.504 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.504 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.505 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.505 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.506 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.506 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.507 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:04.507 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:04.508 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:04.508 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.113 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.114 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.114 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.115 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.115 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.116 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.117 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.117 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.118 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.118 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.119 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.119 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.120 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.121 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.121 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.122 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.123 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.124 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.124 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.125 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.126 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.126 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.127 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.128 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.128 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.129 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.132 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.132 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.133 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.133 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.134 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.134 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.135 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.135 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.136 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.137 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.137 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.138 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.138 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.139 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:05.140 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.141 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.142 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.142 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:05.144 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.145 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.146 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.146 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:05.147 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.147 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.148 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.148 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:05.149 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.149 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.150 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.150 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:05.151 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.151 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.154 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.155 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:05.157 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.159 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.161 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.162 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:05.163 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.164 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.166 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.167 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:05.168 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.171 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.173 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.174 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:05.176 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.178 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.179 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.181 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:05.183 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.184 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.186 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.187 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:05.190 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.191 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.192 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.194 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:05.196 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.198 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.199 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.201 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:05.203 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.204 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.205 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.206 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:05.208 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.208 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.210 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.211 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:05.212 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.212 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.213 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.214 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:05.216 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.217 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.219 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.220 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:05.221 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.221 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.223 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.223 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:05.225 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.226 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.227 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.228 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.229 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.230 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.231 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.232 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.233 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.234 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.235 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.236 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.238 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.240 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.242 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.243 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.244 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.245 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.246 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.247 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.248 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.249 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.250 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.251 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.252 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.253 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.254 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.257 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.259 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.260 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.261 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.262 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.263 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.264 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.265 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.266 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.267 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.268 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.269 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.270 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.271 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.272 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.273 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.274 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.274 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.275 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.275 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.276 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.276 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.277 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.277 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.278 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.278 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.279 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.279 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.280 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.280 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.281 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.281 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.281 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.282 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.282 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.283 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.283 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.283 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.284 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.284 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.285 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.285 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.286 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.286 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.287 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.287 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.288 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.288 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.289 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.289 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.290 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:05.290 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.291 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.862 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.863 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.864 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.864 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.865 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.865 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.866 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.867 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.867 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.868 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.868 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.869 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.870 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.870 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.871 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.871 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.872 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.873 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.874 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.874 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.875 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.876 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.878 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.878 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.879 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.880 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.880 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.881 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.881 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.882 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.883 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.883 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.884 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.884 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:05.885 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.885 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.886 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.887 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.888 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.888 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:05.889 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.889 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.890 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:05.890 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:05.891 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.892 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.892 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.893 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:05.893 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.894 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.894 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.895 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:05.896 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.896 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.897 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.897 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:05.899 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.899 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.900 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.900 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:05.901 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.901 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.902 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.907 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:05.908 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.909 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.910 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.910 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:05.911 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.912 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.912 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.913 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:05.914 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.914 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.915 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.916 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:05.916 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.917 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.917 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.918 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:05.918 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.919 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.919 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.920 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:05.921 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.921 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.922 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.922 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:05.923 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.923 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.924 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:05.924 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:05.925 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.926 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.926 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.927 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:05.927 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.928 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.929 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.929 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:05.930 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.931 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.931 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.932 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:05.932 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.933 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.934 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:05.935 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:05.936 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.937 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.937 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.938 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.939 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.939 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.940 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.940 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.942 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.942 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.943 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.944 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.944 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.945 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.946 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.946 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.947 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.947 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.948 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.949 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.949 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.950 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.951 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.951 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.952 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.953 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.954 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.956 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.956 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.957 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.957 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.957 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.958 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.958 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.959 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.959 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.960 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.960 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.961 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.961 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.961 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.962 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.962 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.963 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.963 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.964 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.964 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.965 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.965 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.966 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.966 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.966 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.967 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.967 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.968 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.968 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.969 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.969 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.970 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.970 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.970 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.971 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.971 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.972 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.972 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.972 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.973 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.973 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.974 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.974 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.975 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.975 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.975 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.976 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.976 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.977 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.977 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:05.977 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:05.979 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:05.980 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.579 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.580 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.580 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:06.581 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.581 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.582 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:06.583 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.583 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.585 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.586 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.587 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.588 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.588 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.589 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.590 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.590 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.591 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.592 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.592 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.593 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.593 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.594 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.594 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.595 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.595 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.596 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.597 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.598 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.599 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.599 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.600 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.600 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.601 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.602 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:06.602 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.603 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.604 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.604 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.605 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:06.606 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:06.606 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.607 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.607 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:06.608 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:06.608 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.609 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.610 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.610 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:06.611 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.611 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.612 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.613 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:06.615 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.615 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.616 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.616 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:06.617 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.617 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.621 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.622 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:06.623 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.623 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.624 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.625 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:06.625 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.626 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.627 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.628 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:06.629 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.629 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.630 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.630 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:06.631 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.631 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.634 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.634 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:06.635 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.636 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.636 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.637 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:06.637 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.638 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.638 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.639 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:06.639 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.640 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.641 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.642 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:06.642 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.643 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.644 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:06.645 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:06.646 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.646 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.646 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.647 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:06.647 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.648 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.648 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.648 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:06.649 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.650 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.650 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.650 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:06.651 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.652 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.652 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:06.652 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:06.653 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.653 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.653 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.654 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.654 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.655 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.655 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.656 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.656 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.657 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.657 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.657 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.658 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.658 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.658 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.660 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.660 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.661 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.662 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.663 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.664 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.664 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.666 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.666 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.667 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.668 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.668 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.669 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.670 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.672 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.672 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.673 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.675 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.676 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.677 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.677 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.678 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.679 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.681 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.682 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.683 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.684 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.685 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.686 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.687 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.687 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.689 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.689 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.691 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.692 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.692 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.693 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.694 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.695 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.696 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.696 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.697 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.698 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.698 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.699 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.699 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.700 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.701 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.703 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.704 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.705 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.706 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.706 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.707 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.708 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.709 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.711 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.713 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.714 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.715 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.715 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.717 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:06.717 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:06.718 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:06.719 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.329 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.331 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.332 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:07.332 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.333 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.333 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:07.334 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.335 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.335 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.336 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.336 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.337 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.337 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.338 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.339 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.340 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.340 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.341 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.341 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.342 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.342 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.343 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.344 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.344 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.345 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.345 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.346 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.346 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.347 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.348 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.348 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.351 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.351 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.352 heddoko3[925:283081] Part: 0 - DiscoveredService
+2015-03-23 17:09:07.352 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.353 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.354 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.354 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.358 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:07.359 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:07.360 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.360 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.361 heddoko3[925:283081] Part: 2 - Battery
+2015-03-23 17:09:07.362 heddoko3[925:283081] Part: 3 - Battery Level
+2015-03-23 17:09:07.362 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.363 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.364 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.365 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:07.366 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.367 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.367 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.368 heddoko3[925:283081] Part: 3 - Manufacturer Name String
+2015-03-23 17:09:07.368 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.369 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.370 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.370 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:07.372 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.372 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.373 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.373 heddoko3[925:283081] Part: 3 - Model Number String
+2015-03-23 17:09:07.374 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.374 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.375 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.376 heddoko3[925:283081] Part: 3 - PnP ID
+2015-03-23 17:09:07.376 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.377 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.377 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.378 heddoko3[925:283081] Part: 3 - PnP ID
+
+2015-03-23 17:09:07.381 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.382 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.383 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.383 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:07.384 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.385 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.385 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.386 heddoko3[925:283081] Part: 3 - Serial Number String
+2015-03-23 17:09:07.389 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.391 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.392 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.392 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:07.393 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.393 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.394 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.394 heddoko3[925:283081] Part: 3 - System ID
+2015-03-23 17:09:07.395 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.395 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.396 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.396 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:07.396 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.397 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.397 heddoko3[925:283081] Part: 2 - Device Information
+2015-03-23 17:09:07.398 heddoko3[925:283081] Part: 3 - Hardware Revision String
+2015-03-23 17:09:07.416 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.416 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.417 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.417 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:07.418 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.418 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.419 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.419 heddoko3[925:283081] Part: 3 - 2A4F
+2015-03-23 17:09:07.419 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.420 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.420 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.420 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:07.421 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.421 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.422 heddoko3[925:283081] Part: 2 - 1813
+2015-03-23 17:09:07.422 heddoko3[925:283081] Part: 3 - 2A31
+2015-03-23 17:09:07.423 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.424 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.424 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.425 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.425 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.425 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.426 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.426 heddoko3[925:283081] Part: 3 - 00000102-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.427 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.427 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.428 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.428 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.429 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.429 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.430 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.430 heddoko3[925:283081] Part: 3 - 00000103-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.430 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.431 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.431 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.431 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.432 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.432 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.433 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.433 heddoko3[925:283081] Part: 3 - 00000109-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.433 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.434 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.434 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.435 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.437 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.437 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.438 heddoko3[925:283081] Part: 2 - 00000001-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.438 heddoko3[925:283081] Part: 3 - 00000107-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.438 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.439 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.439 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.440 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.440 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.441 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.441 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.442 heddoko3[925:283081] Part: 3 - 00000205-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.442 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.443 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.443 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.444 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.444 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.444 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.445 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.445 heddoko3[925:283081] Part: 3 - 00000206-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.446 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.446 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.446 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.447 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.448 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.448 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.449 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.449 heddoko3[925:283081] Part: 3 - 00000207-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.449 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.450 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.450 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.450 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.451 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.451 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.452 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.452 heddoko3[925:283081] Part: 3 - 00000208-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.453 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.453 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.453 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.454 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.455 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.456 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.456 heddoko3[925:283081] Part: 2 - 00000002-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.457 heddoko3[925:283081] Part: 3 - 00000209-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.457 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.457 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.458 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.459 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.461 heddoko3[925:283081] Part: 0 - DiscoveredCharacteristic
+2015-03-23 17:09:07.461 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:07.461 heddoko3[925:283081] Part: 2 - 00000004-0000-1000-8000-A0E5E9000000
+2015-03-23 17:09:07.462 heddoko3[925:283081] Part: 3 - 00000402-0000-1000-8000-A0E5E9000000
+!!!!! FINISHED Palying recording !!!!! - dummy 149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:409)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 409)
+
+!!!!! Back to Real Time Tracking !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:420)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 420)
+
+2015-03-23 17:09:14.689 heddoko3[925:283081] iOS-Unity : Loading Scene 'Learn'
+UnloadTime: 3.506833 ms
+System memory in use before: 5.1 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 5.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 343.
+Total: 0.562833 ms (FindLiveObjects: 0.025916 ms CreateObjectMapping: 0.030333 ms MarkObjects: 0.251833 ms  DeleteObjects: 0.021291 ms)
+
+!!!!! Start Dummy !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:265)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs Line: 265)
+
+!!!!! setDummyMode !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:218)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 218)
+
+!!!!! setDummyMode Creating BLE devices !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:227)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 227)
+
+!!!!! prepareReferenceMovement !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:191)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 191)
+
+!!!!! Sending Reference Movement !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8305)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 8305)
+
+Sending data to ios :4470
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:sendMovement(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:127)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8306)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 127)
+
+2015-03-23 17:09:15.254 heddoko3[925:283081] [ Received Base Movement Data ]
+2015-03-23 17:09:15.255 heddoko3[925:283081] dataSize: 4470
+2015-03-23 17:09:15.255 heddoko3[925:283081] frames: 149
+2015-03-23 17:09:15.255 heddoko3[925:283081] devices: 10
+!!!!! Palying recording !!!!! - dummy 149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:398)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:282)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 398)
+
+!!!!! FINISHED Palying recording !!!!! - dummy 149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:409)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 409)
+
+!!!!! Back to Real Time Tracking !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:420)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 420)
+
+2015-03-23 17:09:26.853 heddoko3[925:283081] iOS-Unity : Loading Scene 'MainScene'
+UnloadTime: 3.760541 ms
+System memory in use before: 5.0 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 5.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 495.
+Total: 0.590083 ms (FindLiveObjects: 0.048000 ms CreateObjectMapping: 0.030541 ms MarkObjects: 0.346416 ms  DeleteObjects: 0.029625 ms)
+
+!!!!! Start Dummy !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:265)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs Line: 265)
+
+!!!!! setDummyMode !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:218)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 218)
+
+!!!!! setDummyMode Creating BLE devices !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:setDummyMode(Int32) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:227)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:274)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 227)
+
+!!!!! prepareReferenceMovement !!!!! - dummy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:191)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 191)
+
+!!!!! Sending Reference Movement !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8305)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 8305)
+
+Sending data to ios :4470
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:sendMovement(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:127)
+nodController:loadReferenceMovementInto(String, List`1) (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:8306)
+nodController:loadReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:186)
+nodController:prepareReferenceMovement() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:192)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:278)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 127)
+
+2015-03-23 17:09:27.487 heddoko3[925:283081] [ Received Base Movement Data ]
+2015-03-23 17:09:27.487 heddoko3[925:283081] dataSize: 4470
+2015-03-23 17:09:27.487 heddoko3[925:283081] frames: 149
+2015-03-23 17:09:27.487 heddoko3[925:283081] devices: 10
+!!!!! Palying recording !!!!! - dummy 149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:398)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+DummyBoneControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/DummyBoneControl.cs:282)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 398)
+
+!!!!! Start Bone RealTime !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:283)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs Line: 283)
+
+!!!!! Initializing Second Time!!!!! - bones 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:311)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 311)
+
+Connecting to sensors - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:204)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:314)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 204)
+
+initializing.. - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:207)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:314)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 207)
+
+getting a list of devices - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:initSensorsConnection() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:211)
+<readFromAllSensors>c__Iterator1:MoveNext() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:314)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+BonesControl:Start() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:311)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 211)
+
+2015-03-23 17:09:27.499 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.499 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:27.499 heddoko3[925:283081] Part: 2 - nod-27c
+2015-03-23 17:09:27.499 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 1 - 254A70D1-E99C-8856-7D74-877996F45968
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 2 - nod-27c
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 2 - nod-25d
+2015-03-23 17:09:27.500 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 1 - 29C4654F-5C35-BDA9-20F9-3F99BDB70F7A
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 2 - nod-25d
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 2 - nod-1f2
+2015-03-23 17:09:27.501 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 1 - 2C183C7B-980F-874C-58C4-F9C231520F75
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 2 - nod-1f2
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 2 - nod-421
+2015-03-23 17:09:27.502 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.503 heddoko3[925:283081] Part: 1 - AB5F6D08-EF56-4919-6A1F-48A8439CB7C1
+2015-03-23 17:09:27.503 heddoko3[925:283081] Part: 2 - nod-421
+2015-03-23 17:09:27.503 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.503 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:27.503 heddoko3[925:283081] Part: 2 - nod-2cd
+2015-03-23 17:09:27.504 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.504 heddoko3[925:283081] Part: 1 - ABD84EB9-4E4A-4EF5-BB88-510B4DB9E3B6
+2015-03-23 17:09:27.504 heddoko3[925:283081] Part: 2 - nod-2cd
+2015-03-23 17:09:27.505 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.505 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:27.505 heddoko3[925:283081] Part: 2 - nod-274
+2015-03-23 17:09:27.505 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.505 heddoko3[925:283081] Part: 1 - DA46FF01-CCCA-A0AB-300D-8FA4DD79E4E5
+2015-03-23 17:09:27.506 heddoko3[925:283081] Part: 2 - nod-274
+2015-03-23 17:09:27.506 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.507 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:27.507 heddoko3[925:283081] Part: 2 - nod-2cb
+2015-03-23 17:09:27.507 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.507 heddoko3[925:283081] Part: 1 - DDCF9050-CC0F-249C-16CE-3ACAABC77F8B
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 2 - nod-2cb
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 2 - nod-45a
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.508 heddoko3[925:283081] Part: 1 - E19B0999-2C02-78D6-20F0-235C61300ABC
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 2 - nod-45a
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 2 - nod-55c
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.509 heddoko3[925:283081] Part: 1 - FBCA4EB1-094C-3EB4-2464-7F7BC2C5FA60
+2015-03-23 17:09:27.510 heddoko3[925:283081] Part: 2 - nod-55c
+2015-03-23 17:09:27.510 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.510 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:27.510 heddoko3[925:283081] Part: 2 - nod-2e8
+2015-03-23 17:09:27.511 heddoko3[925:283081] Part: 0 - RetrievedConnectedPeripheral
+2015-03-23 17:09:27.511 heddoko3[925:283081] Part: 1 - FFD2D9F7-333E-C43A-579D-19A150D2FDBD
+2015-03-23 17:09:27.511 heddoko3[925:283081] Part: 2 - nod-2e8
+2015-03-23 17:09:27.560 heddoko3[925:283081] Central State Update: 5
+2015-03-23 17:09:28.062 heddoko3[925:283081] iOS-Unity : Sending message 'Ready'
+!!!!! Reset and Start Recording !!!!!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+BonesControl:Ready() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:505)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs Line: 505)
+
+!!!!! NodController Start Recording !!!!! - bones
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+nodController:startRecording() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs:41)
+BonesControl:Ready() (at /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/Heddoko-3D-master/Scripts/BonesControl.cs:507)
+ 
+(Filename: /Users/chepundup/PROJECTS/HEDDOKO/TECH/iOS App/heddoko-iphone/unityExp/Assets/nodController.cs Line: 41)
+
+2015-03-23 17:09:33.104 heddoko3[925:283081] iOS-Unity : Loading Scene 'Analyze'
+(lldb) 
