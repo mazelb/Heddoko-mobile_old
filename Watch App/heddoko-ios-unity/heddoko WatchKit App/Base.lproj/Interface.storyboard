@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Sports-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Sports" id="AgC-eL-Hgc" customClass="SportsInterfaceController">
+                    <items>
+                        <table alignment="center" verticalAlignment="center" id="wnX-Ry-n4J">
+                            <items>
+                                <tableRow identifier="SportButton" id="6sq-fo-rgy" customClass="HKButtonRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="xEN-9F-9om">
+                                        <items>
+                                            <imageView width="1" height="92" alignment="center" image="home-button-1" contentMode="scaleAspectFit" id="d7S-yn-14Z"/>
+                                            <label alignment="center" text="CROSS TRAINING" textAlignment="center" id="4fc-Rl-jSQ">
+                                                <color key="textColor" red="0.51764705882352946" green="0.6705882352941176" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="7"/>
+                                        <connections>
+                                            <segue destination="eNW-SM-Q5n" kind="push" id="QyE-mT-4zF"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="buttonImage" destination="d7S-yn-14Z" id="GFL-6S-cdx"/>
+                                        <outlet property="buttonLabel" destination="4fc-Rl-jSQ" id="maB-Zo-8j3"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="wnX-Ry-n4J" id="QMa-02-ahV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Cross training-->
+        <scene sceneID="AZf-6H-bpL">
+            <objects>
+                <controller title="Cross training" id="eNW-SM-Q5n" customClass="ExercisesInterfaceController">
+                    <items>
+                        <table alignment="center" verticalAlignment="center" backgroundImage="table-bg" id="I5O-Nf-Tk6">
+                            <items>
+                                <tableRow identifier="ExerciseButton" id="Ew9-hN-0l0" customClass="HKButtonRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="tyg-sd-m5z">
+                                        <items>
+                                            <imageView width="1" height="92" alignment="center" image="exercises-button-1" contentMode="scaleAspectFit" id="CgV-5r-p3a"/>
+                                            <label alignment="center" text="SQUAT" textAlignment="center" id="y6p-AI-dvE">
+                                                <color key="textColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="7"/>
+                                        <connections>
+                                            <segue destination="Lhm-jV-Kxp" kind="push" id="cYr-eH-3h1"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="buttonImage" destination="CgV-5r-p3a" id="oiP-Cr-StM"/>
+                                        <outlet property="buttonLabel" destination="y6p-AI-dvE" id="Fmi-vR-A9g"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="I5O-Nf-Tk6" id="OEj-T6-ryO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="418" y="345"/>
+        </scene>
+        <!--Squat-->
+        <scene sceneID="GXR-Qa-m4f">
+            <objects>
+                <controller title="Squat" backgroundImage="table-bg" id="Lhm-jV-Kxp" customClass="PreTrainingInterfaceController">
+                    <items>
+                        <imageView width="1" height="108" alignment="left" image="pre-squat-stats" contentMode="scaleAspectFit" id="rqB-Yg-DgT"/>
+                        <button width="1" height="38" alignment="left" title="TRAIN" backgroundImage="button-blue" id="UTe-il-FQp">
+                            <color key="titleColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.16078431372549021" green="0.21176470588235294" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                            <connections>
+                                <action selector="trainButtonTouched" destination="Lhm-jV-Kxp" id="nic-fx-Uni"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="trainButton" destination="UTe-il-FQp" id="KQa-yM-NET"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="621" y="345"/>
+        </scene>
+        <!--Training-->
+        <scene sceneID="WgB-st-AeH">
+            <objects>
+                <controller identifier="TrainingController" title="Training" backgroundImage="table-bg" id="d4T-Dv-Aqi" customClass="TrainingInterfaceController">
+                    <items>
+                        <imageView width="1" height="108" alignment="left" image="training-timer" contentMode="scaleAspectFit" id="eP8-It-7ou"/>
+                        <button width="1" height="38" alignment="left" title="COMPLETE" backgroundImage="button-green" id="MAg-qY-eAa">
+                            <color key="titleColor" red="0.16078431369999999" green="0.21176470589999999" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                            <connections>
+                                <segue destination="1Vq-3u-3fI" kind="push" id="Yfx-mB-YCS"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="838" y="345"/>
+        </scene>
+        <!--Complete-->
+        <scene sceneID="lZO-He-p4K">
+            <objects>
+                <controller identifier="TrainingCompleteController" title="Complete" backgroundImage="table-bg" id="1Vq-3u-3fI" customClass="TrainingStatsInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="J9l-eK-S8a">
+                            <items>
+                                <imageView width="90" height="33" alignment="left" image="training-done-stats-1" contentMode="scaleAspectFit" id="u2J-TV-VO0"/>
+                                <label width="39" height="29" alignment="left" text="422" textAlignment="right" id="oLK-Wp-Fr0">
+                                    <color key="textColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="r3w-hD-ats">
+                            <items>
+                                <imageView width="90" height="33" alignment="left" image="training-done-stats-2" contentMode="scaleAspectFit" id="C5p-FP-Dwn"/>
+                                <label width="39" height="29" alignment="left" text="..." textAlignment="right" id="VS6-3a-zz4">
+                                    <color key="textColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="134" alignment="left" id="81H-By-LdZ">
+                            <items>
+                                <imageView width="90" height="33" alignment="left" image="training-done-stats-3" contentMode="scaleAspectFit" id="0pG-QS-h1o"/>
+                                <label width="41" height="29" alignment="left" text="+8%" textAlignment="right" id="WMI-XU-KBh">
+                                    <color key="textColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" radius="0.0" id="mbB-TG-Ejd">
+                            <items>
+                                <button width="1" height="38" alignment="left" title="DONE" backgroundImage="button-blue" id="jQx-JS-r3T">
+                                    <color key="titleColor" red="0.08235294118" green="0.82352941180000006" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.16078431369999999" green="0.21176470589999999" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                    <connections>
+                                        <action selector="doneButtonTouched" destination="1Vq-3u-3fI" id="0gt-l8-sXa"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="accuracyLabel" destination="VS6-3a-zz4" id="IE4-0t-JQh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="764" y="655"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="164" y="607"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="947"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.082352941176470587" green="0.82352941176470584" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

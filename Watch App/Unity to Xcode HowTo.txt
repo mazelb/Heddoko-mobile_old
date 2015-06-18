@@ -1,0 +1,38 @@
+DefaultCompany
+unityExp
+
+1. Export the scenes from Unity 3D
+   - Before build, make sure you have the ‘TNAppController.mm’ file under ‘Assets/Plugins/iOS’ on the Unity Project. This class enables any UIViewController to be the root controller on a Unity generated iOS app.
+   - Also make sure that the 'return;' line is not commented out, in ‘Assets/Heddoko-3D-master/Scripts/BonesControl.cs’; preceding comment is: "De-comment this to hide the buttons for the real iPhone app"
+   - In Unity select Build and Run (Cmd-B) and select the scenes you want to export (all of them)
+   - Choose iOS, then press ‘Player Settings’ to setup the iOS settings that you need: IL2CPP, Universal, iPhone Only, iOS 8.1
+   - Press Build, choose a new empty folder.
+   - Replace what was in the `heddoko-ios-unity` folder with what was created by Unity
+     Note: if you know the Xcode project itself didn't change from your last Unity export, can can replace everything in that folder except Unity-iPhone.xcodeproj and Info.plist, and stop after step (3) below.
+
+2. Undo the changes made to the following files, using SourceTree:
+   - heddoko-ios-unity/Classes/UI/UnityViewControllerBase.mm
+   - heddoko-ios-unity/Classes/Unity/GlesHelper.mm
+
+3. Go in Images assets (the one from Unity), select LaunchImage, and de-select both "iOS 8.0 and Later" checkbox in the right panel. Repeat with AppIcon.
+   (Will fix layout on iOS 6+)
+
+4. Open the generated iOS Project on XCode
+   - Add the Hedokko iOS Classes and files (all under the ‘heddoko’ directory in the root of this Git repo) to the Xcode project.
+   - Go to Link Binary with Libraries and add: CoreBluetooth.framework, libAWDProtobufBluetooth.dlyb
+   - Add the -fobjc-arc flag to UICountingLabel.m and MRCircularProgressView.m
+
+5. Re-add "Fonts provided by application" in Info.plist:
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>MyriadPro-Regular_0.otf</string>
+		<string>MyriadPro-Semibold_0.otf</string>
+	</array>
+
+6. Remove the complete UILaunchImage key from Info.plist
+
+
+TestFlight / App Store Submission
+---------------------------------
+To be able to send a build to iTunes connect, to send it via TestFlight, the AppIcon needs to be available in 57pt (1x and 2x), and 60pt (2x). Add those, if they're not there.
